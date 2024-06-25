@@ -316,3 +316,31 @@ footer{
         padding: 10px;
     }
 }
+
+@media (max-width: 512px) {
+    .hero-text h1 {
+        font-size: 2em;
+    }
+
+    .hero-text h2 {
+        font-size: 1.5em;
+    }
+
+    .hero-text p, .hero-text .get-in-touch {
+        font-size: 0.9em;
+    }
+
+    .contact-section {
+        width: 100%;
+        padding: 10px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    header {
+        width: 84.5%;
+        padding: 10px;
+    }
+}
